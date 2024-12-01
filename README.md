@@ -4,4 +4,4 @@ Programming Language -> Go
 
 GUI Framework -> Cogent Core
 
-Databse -> sqlite 
+Database -> sqlite 
