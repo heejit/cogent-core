@@ -101,9 +101,8 @@ func (this *MainForm) InitForm() {
 		s.Max.Zero() // stretch
 	})
 
-	// ctlr+v hang the app that is why not using texteditor
+	// somtime ctlr+v hang the app 
 	this.FormContent = texteditor.NewEditor(vFrame2)
-	//this.FormContent = core.NewTextField(vFrame2)
 	this.FormContent.ContextMenus = nil
 	this.FormContent.Scene.ContextMenus = nil
 	this.FormContent.SetTooltip("Enter your notes here")
