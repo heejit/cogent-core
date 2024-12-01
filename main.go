@@ -199,10 +199,6 @@ func (this *MainForm) SaveForm() {
 	var vNoteTags string
 	var vStr string
 
-	//ccws.AskNumberOSK(this.Body, "Enter Passcode", false, false, func (v string) {
-	//	fmt.Println("Your input is :", v)
-	//})
-
 	// input validation
 	if len(this.FormName.Text()) == 0 {
 		core.MessageDialog(this.Body, "Note Name Missing", "Save")
@@ -213,11 +209,6 @@ func (this *MainForm) SaveForm() {
 		core.MessageDialog(this.Body, "Note Content Missing", "Save")
 		return
 	}
-
-	//if len(this.FormContent.Text()) == 0 {
-	//	core.MessageDialog(this.Body, "Note Content Missing", "Save")
-	//	return
-	//}
 
 	if this.OldId == 0 {
 		vNoteId = NextId(this.dbSqlite)
