@@ -1,1 +1,5 @@
-Simple app to manage text notes in sqlite database using Go and for GUI Cogent Core Framework.
+Simple app to manage notes 
+
+Programming Language -> Go 
+GUI Framework -> Cogent Core
+Databse -> sqlite 
